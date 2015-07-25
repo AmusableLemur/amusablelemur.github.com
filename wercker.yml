@@ -6,7 +6,7 @@ build:
 deploy:
     steps:
         - add-to-known_hosts:
-            hostname: $HOSTNAME
+            hostname: ssh.rasmuslarsson.se
         - mktemp:
             envvar: PRIVATEKEY_PATH
         - create-file:
@@ -16,4 +16,4 @@ deploy:
             overwrite: true
             hide-from-log: true
         - script: |
-            scp -r -i $PRIVATEKEY_PATH public/* rasmuslarsson.se@$HOSTNAME:/www/test
+            scp -r -i $PRIVATEKEY_PATH public/* rasmuslarsson.se@ssh.rasmuslarsson.se:/www/test
