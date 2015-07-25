@@ -5,6 +5,8 @@ build:
             version: "0.14"
 deploy:
     steps:
+        - add-to-known_hosts:
+            hostname: ssh.rasmuslarsson.se
         - mktemp:
             envvar: PRIVATEKEY_PATH
         - create-file:
