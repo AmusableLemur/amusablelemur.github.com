@@ -1,7 +1,7 @@
 box: debian
 build:
     steps:
-        - arjen/hugo-build@1.4.0
+        - arjen/hugo-build@1.4.0:
             version: 0.14
 deploy:
     steps:
@@ -11,7 +11,7 @@ deploy:
             content: $PRODUCTION_PRIVATE
             overwrite: true
             hide-from-log: true
-        - sjoerdmulder/rsync-deploy@0.1.0
+        - sjoerdmulder/rsync-deploy@0.1.0:
             host: ssh.rasmuslarsson.se
             user: rasmuslarsson.se
             source: ./public
