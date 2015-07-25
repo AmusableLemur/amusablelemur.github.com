@@ -1,0 +1,7 @@
+baseurl = "http://www.rasmuslarsson.se/"
+languageCode = "en-us"
+theme = "hyde"
+title = "Rasmus Larsson"
+
+[Params]
+    description = "Code, ramblings and other stuff."
