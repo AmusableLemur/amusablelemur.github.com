@@ -1,4 +1,19 @@
 box: debian
 build:
-  steps:
-    - arjen/hugo-build@1.4.0
+    steps:
+        - arjen/hugo-build@1.4.0
+            version: 0.14
+deploy:
+    steps:
+        - create-file:
+            name: write key
+            filename: $PRIVATEKEY_PATH
+            content: $PRODUCTION_PRIVATE
+            overwrite: true
+            hide-from-log: true
+        - sjoerdmulder/rsync-deploy@0.1.0
+            host: ssh.rasmuslarsson.se
+            user: rasmuslarsson.se
+            source: ./public
+            directory: /www/test
+            sshkey: $PRIVATEKEY_PATH
