@@ -1,10 +1,12 @@
-box: ubuntu
+box: wercker/default
 build:
     steps:
         - arjen/hugo-build@1.4.0:
             version: "0.14"
 deploy:
     steps:
+        - add-to-known_hosts:
+            hostname: $HOSTNAME
         - mktemp:
             envvar: PRIVATEKEY_PATH
         - create-file:
@@ -13,9 +15,5 @@ deploy:
             content: $PRODUCTION_PRIVATE
             overwrite: true
             hide-from-log: true
-        - sjoerdmulder/rsync-deploy@0.1.0:
-            host: ssh.rasmuslarsson.se
-            user: rasmuslarsson.se
-            source: ./public
-            directory: /www/test
-            sshkey: $PRIVATEKEY_PATH
+        - script: |
+            scp -r -i $PRIVATEKEY_PATH public/* rasmuslarsson.se@$HOSTNAME:/www/test
