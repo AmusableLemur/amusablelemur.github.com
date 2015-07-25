@@ -1,7 +1,7 @@
 box: wercker/default
 build:
     steps:
-        - arjen/hugo-build@1.4.0:
+        - arjen/hugo-build:
             version: "0.14"
 deploy:
     steps:
@@ -15,5 +15,6 @@ deploy:
             content: $PRODUCTION_PRIVATE
             overwrite: true
             hide-from-log: true
-        - script: |
-            scp -r -i $PRIVATEKEY_PATH public/* rasmuslarsson.se@ssh.rasmuslarsson.se:/www/test
+        - script:
+            name: upload
+            code: scp -r -i $PRIVATEKEY_PATH public/* rasmuslarsson.se@ssh.rasmuslarsson.se:/www/test
