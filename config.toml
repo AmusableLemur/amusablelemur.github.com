@@ -1,7 +1,10 @@
 baseurl = "https://test.rasmuslarsson.se"
 languageCode = "en-us"
-theme = "hyde"
+theme = "hyde-x"
 title = "Rasmus Larsson"
 
-[Params]
-    description = "Code, ramblings and other stuff."
+[author]
+    name = "Rasmus Larsson"
+
+[params]
+    tagline = "Code, ramblings and other stuff."

@@ -1,0 +1,31 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      {{ with .Site.Params.gravatarHash }}<img src="https://www.gravatar.com/avatar/{{ . }}?s=200" alt="gravatar">{{ end }}
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Author.name }}</h1></a>
+      {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="{{ "/" | absURL }}">Home</a></li>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{end}}
+      <li><a href="https://github.com/amusablelemur" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/larssonrasmus" target="_blank">LinkedIn</a></li>
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item icons">
+      {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.bitbucket }}<a href="{{ . }}"><i class="fa fa-bitbucket-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.linkedin }}<a href="{{ . }}"><i class="fa fa-linkedin-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.googleplus }}<a href="{{ . }}"><i class="fa fa-google-plus-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
+      </li>
+    </ul>
+
+    <p>Copyright &copy; {{ .Now.Format "2006" }}</p>
+  </div>
+</div>
