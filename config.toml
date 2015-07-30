@@ -8,3 +8,11 @@ title = "Rasmus Larsson"
 
 [params]
     tagline = "Code, ramblings and other stuff."
+    defaultDescription = "A description"
+    defaultKeywords = "rasmus, larsson, programming, code, web, unix"
+
+    truncate = false
+    highlight = "solarized_dark"
+
+    googleAuthorship = "RasmusLarsson1337" # Yeah, I know
+    googleAnalytics = "UA-26257571-1"
