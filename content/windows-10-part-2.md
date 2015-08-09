@@ -2,7 +2,6 @@
 title = "Windows 10 part 2"
 date = "2015-08-06T22:44:03+02:00"
 type = "post"
-draft = true
 +++
 
 Another problem with Windows 10. It turns out that there's a race condition in
