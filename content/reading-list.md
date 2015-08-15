@@ -17,10 +17,10 @@ In no particular order.
 ## Books
 
 **The Pragmatic Programmer: From Journeyman to Master**  
-by Andrew Hunt and David Thomas, [Amazon][1]
+by Andrew Hunt and David Thomas ([Amazon][1])
 
 **The Mythical Man-Month: Essays on Software Engineering**  
-by Frederick Brooks, [Amazon][2]
+by Frederick Brooks ([Amazon][2])
 
 **The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses** by Eric Reiss ([Amazon][3])  
 The Lean Startup brings the principles of lean manufacturing and agile
@@ -47,22 +47,26 @@ be.
 
 ## Other stuff
 
-**Programming is terrible** (<http://www.youtube.com/watch?v=csyL9EC0S0c>)  
+**Programming is terrible**  
 A talk by tef on his experiences working as a programmer. He covers a lot of
 interesting stuff like best practices, differences between successful
 programmers and good ones, myths of programming etc. All in all it's a very
-amusing and informative way to spend forty minutes.
+amusing and informative way to spend forty minutes.  
+<http://www.youtube.com/watch?v=csyL9EC0S0c>
 
-**The Codeless Code** (<http://thecodelesscode.com/contents>)
+**The Codeless Code**  
+<http://thecodelesscode.com/contents>
 
-**Paul Graham's Essays** (<http://www.paulgraham.com/articles.html>)  
+**Paul Graham's Essays**  
 Paul Graham have co-founded Viaweb and YCombinator and is famous for his work on
 Lisp. Although his site isn't technically a blog, it features some very good
-articles.
+articles.  
+<http://www.paulgraham.com/articles.html>
 
-**Unlearn your MBA** (<http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2334>)
+**Unlearn your MBA**  
 David Heinemeier Hansson who famously created Ruby on Rails while
-studying for his MBA talks business, management and programming.
+studying for his MBA talks business, management and programming.  
+<http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2334>
 
  [0]: http://blog.codinghorror.com/recommended-reading-for-developers/
  [1]: http://www.amazon.com/gp/product/020161622X/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=020161622X&linkCode=as2&tag=rasmlars-20
