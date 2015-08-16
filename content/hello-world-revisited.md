@@ -28,3 +28,7 @@ files to the web server and \*bam\*, we're live.
 
 I will keep this blog on a temporary domain until I have managed to migrate over
 all my old posts. Or well, at least the ones I'd like to keep.
+
+Update: I have finally begun migrating my old posts so this blog has replaced my
+old one. A lot of old content has disappeared in the migration. I've kept what
+little I liked as well as the posts that got a lot of traffic.
