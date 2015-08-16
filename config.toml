@@ -1,4 +1,4 @@
-baseurl = "https://test.rasmuslarsson.se"
+baseurl = "https://www.rasmuslarsson.se"
 languageCode = "en-us"
 theme = "hyde-x"
 title = "Rasmus Larsson"
