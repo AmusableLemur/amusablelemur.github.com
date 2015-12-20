@@ -2,6 +2,9 @@ baseurl = "https://www.rasmuslarsson.se"
 languageCode = "en-us"
 theme = "hyde-x"
 title = "Rasmus Larsson"
+metaDataFormat = "yaml"
+paginate = 10
+uglyURLs = true
 
 [author]
     name = "Rasmus Larsson"
