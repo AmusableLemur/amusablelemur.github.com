@@ -13,3 +13,5 @@ Inspired by ["12 resolutions for programmers"](http://matt.might.net/articles/pr
  * Start using a password manager
  * Create something in an unfamiliar language (Clojure or Go maybe?)
  * Get better at math
+ * Attend more [lectures](http://www.foocafe.org/)
+ * Try Dvorak
