@@ -6,7 +6,7 @@ type: post
 
 ![LastPass](/media/lastpass.png)
 
-Passwords are probably the biggest security risk that users face today. Most assume that a password that is *at least 8 characters long, contain upper case and lower case letters as well as at least one digit*. Problem is that this leads to passwords like *Password1*. But the *real* problem is that users believe that this password is so secure, since it technically follows the requirements for a "secure" password, that it can safely be used everywhere.
+Passwords are probably the biggest security risk that users face today. Most assume that a secure password is *at least 8 characters long, contain upper case and lower case letters as well as at least one digit*. Problem is that this leads to passwords like *Password1*. But the *real* problem is that users believe that this password is so secure, since it technically follows the requirements for a "secure" password, that it can safely be used everywhere.
 
 This is a huge security issue.
 
@@ -18,7 +18,7 @@ The answer is actually no, absolutely not. It all comes down to website security
 
 And yes, this is actually more common than you think. Check out [*';--have i been pwned?*](https://haveibeenpwned.com/) for some famous security breaches. Even big players like Adobe, Forbes and Gawker have been vulnerable to attacks in the past. It doesn't even matter if the site encrypts your password or not, because you would have to trust every single site you use to use strong encryption.
 
-This is why a weak password is not that big of a deal, to an extent. Even if the password might be guessed in a few hundred attempts it's not insane if it only grants access to one particular service and that service is not important to you. In other words, if you use a secure password for your banking and you use the same password for some online forum. Then if the forum gets hacked the hackers will automatically have the password to your bank as well. But if you use different passwords for every site they will only have access to the forum.
+This is why a weak password is not that big of a deal, to an extent. Even if the password might be guessed in a few hundred attempts it's not insane if it only grants access to one particular service and that service is trifling to you. In other words, if you use a secure password for your banking and you use the same password for some online forum. Then if the forum gets hacked the hackers will automatically have the password to your bank as well. But if you use different passwords for every site they will only have access to the forum.
 
 There are several ways to go about creating unique passwords for every site. One popular option is to use site-related passwords. If we continue from the previous example one such password might look like *Password1Facebook* for Facebook and *Password1Twitter* for Twitter and so on. While this would stop automated attempts it's still quite easy to guess what the password is for a different service.
 
@@ -46,4 +46,4 @@ This might not seem like a big deal, but when we have computers that can try a h
 
 Explaining how entropy is calculated properly and what constitutes predictability would require its own article. I will just say this, anything you choose that helps you remember the password (dates, names, lucky numbers, etc.) reduces the security of your password.
 
-This leads us to the final topic, how to choose a strong password. There are ways to choose passwords that are both secure, even by modern standards, and easy to remember. [Diceware](http://world.std.com/~reinhold/diceware.html) is my preferred option. You basically have a list of 7776 words which you use a die to select from (completely analog!). This gives you `60,466,176` possible combinations from only two words. `470,184,984,576` combinations from three words and so on. This would give som indication of how secure this is. And because of the way the brain works it's easier to remember words than letters, even when the words don't make any sense together.
+This leads us to the final topic, how to choose a strong password. There are ways to choose passwords that are both secure, even by modern standards, and easy to remember. [Diceware](http://world.std.com/~reinhold/diceware.html) is my preferred option. You basically have a list of 7776 words which you use a die to select from (completely analog). This gives you `60,466,176` possible combinations from only two words. `470,184,984,576` combinations from three words and so on. This would give som indication of how secure this is. And because of the way the brain works it's easier to remember words than letters, even when the words don't make any sense together.
