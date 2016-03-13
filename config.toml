@@ -11,7 +11,7 @@ uglyURLs = true
 
 [params]
     tagline = "Code, ramblings and other stuff."
-    defaultDescription = "A description"
+    defaultDescription = "Code, ramblings and other stuff. The blog of Rasmus Larsson."
     defaultKeywords = "rasmus, larsson, programming, code, web, unix"
 
     truncate = false
