@@ -5,3 +5,5 @@ menu = "main"
 +++
 
 Some of my projects and where to find them. Maybe images?
+
+![Destruktiv](/media/destruktiv.png)
