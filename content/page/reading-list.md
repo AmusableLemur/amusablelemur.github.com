@@ -29,6 +29,13 @@ programming to entrepreneurs. An awesome guide on how to do more with less.
 **Refactoring: Improving the Design of Existing Code** by Martin Fowler ([Amazon][4])  
 Because 99% of programming is maintaining existing code.
 
+**Getting Real** by Daniel Heinemeier Hansen (DHH)
+
+**Clean Code** by Uncle Bob
+
+**Code Complete** by Steve McConnell
+
+**Design Patterns: Elements of Reusable Object-Oriented Software** by Gamma et. al (i.e. "Gang of Four")
 
 ## Articles
 

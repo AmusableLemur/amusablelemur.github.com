@@ -1,7 +1,6 @@
 ---
 date: "2017-02-26"
 title: An efficient work environment in Gnome Shell
-type: post
 ---
 
 At work or at home I mainly use a Ubuntu + Gnome Shell setup for getting work done. While Gnome Shell has its limitations it can be dramatically improved with the right extensions. At least for now I don't know any better option.
