@@ -1,6 +1,6 @@
 ---
 date: "2015-07-25T05:16:01+02:00"
-title: Reading
+title: Reading list
 menu: main
 ---
 
