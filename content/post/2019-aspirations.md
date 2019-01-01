@@ -1,5 +1,5 @@
 ---
-date: "2018-01-01"
+date: "2019-01-01"
 title: Resolutions for 2019
 type: post
 ---
