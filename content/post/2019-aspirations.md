@@ -30,4 +30,9 @@ I should have some kind of documentation on what I want to accomplish before I s
 A plan does not bring much to a project unless there is some follow-up. For this project I should document successes and failures to keep track of changes to the project plan as well as completion rate.
 
 ### Completed
-The main problem that I suffer with when it comes to personal projects is completion. A lot of projects stagnate because of boredom or lack of time. Having a proper plan and follow-up should help to make sure that the project is on track but also to define an end-goal of the project.
+The main problem that I suffer with when it comes to personal projects is completion. A lot of projects stagnate because of boredom or lack of time. I found [this quote](https://news.ycombinator.com/item?id=18546751) on Hacker News which summarizes it pretty well.
+
+> I think side projects, software at least, are a lot like the Civilization games.
+> You can't wait to start. The first 10% is awesome. 10-40% is complex and the difficulty ramps up. 40-100%, all you can think about is starting over on something else. At around 80%, you just quit and actually do start over.
+
+Having a proper plan and follow-up should help to make sure that the project is on track but also to define an end-goal of the project. Hopefully this is enough to make sure the project is actually completed.
