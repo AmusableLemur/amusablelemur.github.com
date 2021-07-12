@@ -1,0 +1,5 @@
+[[main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
