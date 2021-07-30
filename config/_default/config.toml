@@ -1,6 +1,7 @@
-baseurl = "https://www.rasmuslarsson.se"
+baseurl = "/"
 languageCode = "en-us"
-theme = "anatole"
+theme = "hello-friend"
+title = "Rasmus Larsson"
 metaDataFormat = "yaml"
 paginate = 10
 uglyURLs = true
