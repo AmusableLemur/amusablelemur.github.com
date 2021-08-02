@@ -33,7 +33,7 @@ while len(nums1) > 0 or len(nums2) > 0:
         nums.append(nums2.pop(0))
 ```
 
-Calls to len() are `O(1)` [2]. But the calls to pop(0) are `O(n)` while pop() or pop(-1) are `O(1)` [3]. In other words it would be faster to merge the two lists backwards and then reverse the result rather than combining the lists in the right order from the start. Here is the same solution but forwards.
+Calls to len() are `O(1)` [2]. But the calls to pop(0) are `O(n)` while pop() or pop(-1) are `O(1)` [3]. In other words it would be faster to merge the two lists backwards and then reverse the result rather than combining the lists in the right order from the start. Here is an updated version which goes backwards instead.
 
 ```python
 nums = []
