@@ -1,5 +1,5 @@
 ---
-date: "2024-01-07 19:58"
+date: "2024-01-07"
 title: "Bitsy, a tiny game engine"
 type: "post"
 ---
