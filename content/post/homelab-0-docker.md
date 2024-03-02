@@ -30,7 +30,7 @@ $ sudo usermod -aG docker $USER
 This can then be tested by running a tiny container to see that everything works.
 
 ```bash
-docker run hello-world
+$ docker run hello-world
 ```
 
 ## Managing stuff with Portainer
@@ -42,8 +42,8 @@ The tricky part that I found here is that there is a business edition and a comm
 The setup itself is as easy as installing Docker.
 
 ```bash
-docker volume create portainer_data
-docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+$ docker volume create portainer_data
+$ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
 ## Next steps
