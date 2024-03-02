@@ -12,13 +12,13 @@ So, with the new Raspberry Pi 5 I wanted to do something different. With a conta
 
 These are some notes from my adventure below. I intend to write follow up posts of additional things I get set up and the steps to get there.
 
-# Preparing the Raspberry Pi
+## Preparing the Raspberry Pi
 
 What was really nice here since the last time I installed a Raspberry Pi is that the tooling is a lot stronger. Now there is an [imager tool](https://www.raspberrypi.com/software/) that does a lot of the heavy lifting for us. Yet another app to install though but in my opinion a lot clearer than the old ways of `dd if=raspbian.img of=/dev/sdx`.
 
 A pretty big gotcha here though is that not only is the SSH server no longer enabled by default. The default `pi` user has been removed also. This requires some configuration to be done in advance for a headless setup. Luckily the imager has [settings for enabling all of this](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-using-imager).
 
-# Setting up Docker
+## Setting up Docker
 
 Getting Docker set up is super easy. All it boils down to is basically the following.
 
@@ -33,7 +33,7 @@ This can then be tested by running a tiny container to see that everything works
 docker run hello-world
 ```
 
-# Managing stuff with Portainer
+## Managing stuff with Portainer
 
 Running the server through SSH and CLI commands works. But it is nice to have a decent interface to get a better overview of things. Portainer plugs in nicely with Docker and allows setting up stacks through docker-compose files and managing individual containers.
 
@@ -46,6 +46,6 @@ docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
-# Next steps
+## Next steps
 
 Next I want to add some centralized authentication so that I do not need to set up user and password for every single service. That means single-sign on (SSO) with OAuth but it also means that I will need a database to store the users and a database means PostgreSQL.
