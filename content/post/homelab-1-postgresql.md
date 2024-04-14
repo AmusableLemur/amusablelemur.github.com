@@ -14,7 +14,7 @@ PostgreSQL uses semantic versioning so setting the image to `postgres:16` will m
 
 Instead of exposing the port on the host I will use a bridge network to limit who has access to PostgreSQL. This reduces the attack vector a bit with the downside that the databases will only be available to containers running on this machine.
 
-## Adding PGAdmin4
+## Administrating PostgreSQL with PGAdmin4
 
 Initially I did not want a tool for Postgres but it turned out to be so incredibly cumbersome to create tables and users by connecting to the container and running the CLI so I caved and added PGadmin to the stack.
 
