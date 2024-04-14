@@ -34,7 +34,7 @@ networks:
 
 This gives LLDAP access to the PostgreSQL database server I set up previously. The database and connection string is configured with environment variables as are additional secrets.
 
-![lldap interface](static/lldap.png)
+![lldap interface](/static/lldap.png)
 
 ## Login page and OAuth with Authelia
 
