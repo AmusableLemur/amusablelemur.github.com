@@ -38,4 +38,21 @@ This gives LLDAP access to the PostgreSQL database server I set up previously. T
 
 ## Login page and OAuth with Authelia
 
-WIP :-)
+Many services do not support authenticating against LDAP directly but instead rely on OAuth and OIDC. There are multiple ways to solve this but [Authelia](https://www.authelia.com/) was simple and lightweight while still enough for my needs.
+
+Configuration against LLDAP was super easy and well documented. The only catch I ran into here was that the session domain needs to match the TLD for sessions to persist properly on redirects. Without this I got caught in a redirect loop when trying to log in.
+
+Even though Authelia is pretty lightweight the configuration options are extensive and takes some time to go through. There is a really nice list of [examples for integrations](https://www.authelia.com/integration/prologue/introduction/) to find supported services to set up.
+
+````docker-compose
+services:
+  authelia:
+    container_name: authelia
+    image: docker.io/authelia/authelia:latest
+    restart: unless-stopped
+    volumes:
+      - "authelia_config:/config"
+      - "authelia_secrets:/secrets"
+````
+
+Another thing here is that since this connects to the LLDAP instance which is on the same stack there is no need for another network to be configured here for it to be reachable. However, the volumes are necessary to store configuration and secrets.
