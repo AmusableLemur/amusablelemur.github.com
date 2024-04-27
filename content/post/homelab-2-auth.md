@@ -56,3 +56,11 @@ services:
 ````
 
 Another thing here is that since this connects to the LLDAP instance which is on the same stack there is no need for another network to be configured here for it to be reachable. However, the volumes are necessary to store configuration and secrets.
+
+Adding a client i.e. integration is a little bit of a hassle as it requires a unique key for the authentication flow and requires manually editing the config file. Putting this secret in the config file also makes the configuration a bit more complex to version control.
+
+The unique key, or secret, can be easily generated through Docker though which is nice.
+
+````bash
+docker run authelia/authelia:latest authelia crypto hash generate argon2 --random --random.length 64 --random.charset alphanumeric
+`````
